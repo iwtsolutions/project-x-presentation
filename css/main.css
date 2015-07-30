@@ -1,0 +1,85 @@
+body {
+  background: rgba(134, 216, 181, 100);
+
+  background: radial-gradient(rgb(134, 216, 181), rgb(117, 190, 159));
+
+  color: #000; /* Fallback for older browsers */
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h2 { font-size: 100px; }
+h3 { font-weight: bold; margin-top: 20px; }
+
+dt {
+  font-weight: bold;
+}
+
+.step { position: relative; }
+
+/* Show only angular 1.x steps when on Angular 1.x overview and same for Angular 2. */
+.impress-on-angular1x-overview [id^=angular1x-].step, .impress-on-angular2-overview [id^=angular2-].step { opacity: 1; cursor: pointer; }
+
+.ref-branch {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.5em;
+  opacity: 0;
+  position: absolute;
+  top: -50px;
+  left: 50px;
+  -webkit-transition: opacity 1s;
+  -moz-transition:    opacity 1s;
+  -ms-transition:     opacity 1s;
+  -o-transition:      opacity 1s;
+  transition:         opacity 1s;
+}
+
+.ng-shield {
+  background: transparent url("../img/ng-shield-large.png") no-repeat scroll 0px 0px;
+  float: right;
+  opacity: 0;
+  height: 200px;
+  width: 200px;
+  -webkit-transition: opacity 1s;
+  -moz-transition:    opacity 1s;
+  -ms-transition:     opacity 1s;
+  -o-transition:      opacity 1s;
+  transition:         opacity 1s;
+}
+
+.active .ng-shield { opacity: 1; }
+
+/* hint for my prez */
+.impress-on-title .hint {
+    opacity: 1;
+
+    -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s;
+    -moz-transition:    opacity 1s 5s,    -moz-transform 0.5s;
+    -ms-transition:     opacity 1s 5s,     -ms-transform 0.5s;
+    -o-transition:      opacity 1s 5s,      -o-transform 0.5s;
+    transition:         opacity 1s 5s,         transform 0.5s;
+
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+}
+
+#angular2-alpha a { background: none; }
+
+#angular2-directives code { font-size: 0.78em; }
+#angular1x-ng-repeat code { font-size: 0.66em; }
+#angular2-ng-for     code { font-size: 0.66em; }
+
+.ng1x-tech-logos { width: 450px; margin: 0 auto; }
+.js-logo { background-color: #F0DB4F; margin-right: 25px; }
+.html5-logo { height: 200px; margin-left: 25px; }
+
+.ng2-tech-logos img {
+	height: 130px;
+	margin: 12.5px;
+}
+
+#props li, #next-steps li, #check-the-code li { font-size: .7em; }
+
+#props ul, #next-steps ul, #check-the-code ul { list-style: circle; padding-left: 50px; }

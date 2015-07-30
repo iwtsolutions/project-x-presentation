@@ -1,0 +1,21 @@
+{
+  "name": "project-x-presentation",
+  "version": "1.0.0",
+  "description": "Project X Presentation",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.iwtsolutions.com:7999/px/presentation.git"
+  },
+  "keywords": [
+    "presentation",
+    "project",
+    "x",
+    "impress.js"
+  ],
+  "author": "Jared M. Smith",
+  "license": "ISC"
+}

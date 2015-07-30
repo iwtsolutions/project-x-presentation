@@ -1,0 +1,27 @@
+{
+  "name": "project-x-presentation",
+  "version": "0.0.0",
+  "authors": [
+    "Jared M. Smith <absynce@gmail.com>"
+  ],
+  "description": "Project X Presentation",
+  "main": "index.html",
+  "keywords": [
+    "project",
+    "x",
+    "presentation",
+    "impress.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "impress.js": "~0.5.3",
+    "jquery": "~2.1.4"
+  }
+}
