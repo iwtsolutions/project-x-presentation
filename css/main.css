@@ -44,12 +44,14 @@ dt {
   width: 600px;
   margin: 0 auto;
   margin-top: -100px;
+  margin-left: -35px;
 }
+
+#enrollment.step { width: 530px; }
 
 #enrollment .enrollment-icon {
   display: block;
-  opacity: .6;
-  width: 100px;
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -63,11 +65,11 @@ dt {
   margin: 0 auto;
 }
 
-#phr.step { width: 600px; }
+#phr.step { width: 450px; }
 
 #phr .phr-icon {
   display: block;
-  opacity: .7;
-  width: 100px;
+  width: 300px;
   margin: 0 auto;
+  margin-left: -10px;
 }
