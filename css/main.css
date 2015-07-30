@@ -33,6 +33,41 @@ dt {
     transform:         translateY(0px);
 }
 
-#authorization-hierarchy li, #security li { font-size: .7em; }
+#authorization-hierarchy.step { width: 630px; }
 
-#authorization-hierarchy ul, #security ul { list-style: circle; padding-left: 50px; }
+#authorization-hierarchy li, #security li, li { font-size: .7em; }
+
+#authorization-hierarchy ul, #security ul, ul { list-style: circle; padding-left: 50px; }
+
+#authorization-hierarchy img.hierarchy-icon {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: -100px;
+}
+
+#enrollment .enrollment-icon {
+  display: block;
+  opacity: .6;
+  width: 100px;
+  margin: 0 auto;
+}
+
+#security.step { width: 700px; }
+
+#security .token-icon { width: 300px; }
+
+#security .token-icons {
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+}
+
+#phr.step { width: 600px; }
+
+#phr .phr-icon {
+  display: block;
+  opacity: .7;
+  width: 100px;
+  margin: 0 auto;
+}
